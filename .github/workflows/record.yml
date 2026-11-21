@@ -2,7 +2,7 @@ name: Flipx Winner Recorder
 
 on:
   schedule:
-    - cron: '*/10 * * * *' # Har 10 minute me automatic chalega
+    - cron: '17,47 * * * *' # Har 10 minute me automatic chalega
   workflow_dispatch:       # Manual "Run workflow" button ke liye
 
 permissions:
